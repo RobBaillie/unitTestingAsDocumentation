@@ -1,6 +1,12 @@
 @isTest
 private class ClassTheDoesThingsTest {
 
+    /*
+    *
+    * This is the test that code coverage would have us build
+    *
+    */
+
     @isTest
     private static void test_updateContactsSometimes() {
 

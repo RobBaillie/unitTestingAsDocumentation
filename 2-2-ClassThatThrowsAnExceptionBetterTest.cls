@@ -1,6 +1,14 @@
 @isTest
 private class ClassThatThrowsAnExceptionBetterTest {
 
+    /**
+    *
+    * A solution to the broken 'ClassThatThrowsAnExceptionTest
+    *
+    * By moving the assertions out of the exception handler we guarantee that they run
+    * and allow them to fail if no assertion is thrown.
+    *
+    */
     @isTest
     private static void test_throwException_whenPassedAMessage_throwsAnExceptionWithThatMessage() {
 

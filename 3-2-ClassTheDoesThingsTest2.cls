@@ -1,6 +1,12 @@
 @isTest
 private class ClassTheDoesThingsTest2 {
 
+    /*
+    *
+    * This is the aditional test that thinking about more than just code coverage could have us build
+    *
+    */
+
     @isTest
     private static void test_updateContactsSometimes_whenItDoesNotUpdate() {
 
