@@ -1,8 +1,6 @@
 @isTest
 private class OrderTests {
 
-    // This class will not compile in this project
-
 	@testSetup
     private static void SetupTestData() {
         TestDataFactory.InsertTestData(10);
