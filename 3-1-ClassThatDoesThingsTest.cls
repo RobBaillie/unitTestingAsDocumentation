@@ -1,5 +1,5 @@
 @isTest
-private class ClassTheDoesThingsTest {
+private class ClassThatDoesThingsTest {
 
     /*
     *

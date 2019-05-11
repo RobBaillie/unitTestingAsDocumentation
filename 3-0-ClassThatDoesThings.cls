@@ -1,4 +1,4 @@
-public class ClassTheDoesThings {
+public class ClassThatDoesThings {
 
     /*
     * This method will update the first name of the contact, only if the name
