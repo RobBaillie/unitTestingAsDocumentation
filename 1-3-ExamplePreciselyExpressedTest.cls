@@ -21,7 +21,7 @@ private class ExamplePreciselyExpressedTest {
     * @result Legitimate Interest Expiry date of contact is updated to the activity date plus 18 months
     */
     @isTest
-    static void insertOfTaskDescribingAPositiveConversation_againstContact_willExtendContactsLegitimateInterestExpiryDate() {
+    static void insertOfTaskDescribingAPositiveConversation_againstAContact_willExtendContactsLegitimateInterestExpiryDate() {
 
         Contact originalContact = getContact();
 
@@ -42,7 +42,7 @@ private class ExamplePreciselyExpressedTest {
     * @result Legitimate Interest Expiry date of contact will not be updated
     */
     @isTest
-    static void insertOfTaskNotDescribingAPositiveConversation_againstContact_willNotExtendContactsLegitimateInterestExpiryDate() {
+    static void insertOfTaskNotDescribingAPositiveConversation_againstAContact_willNotExtendContactsLegitimateInterestExpiryDate() {
 
         Contact originalContact = getContact();
 
